@@ -7,4 +7,11 @@ class Contact extends CI_Controller
         $this->load->view('contact_view');
         $this->load->view('template/footer');
     }
+
+    public function aslab()
+    {
+        $this->load->view('template/header');
+        $this->load->view('aslab_view');
+        $this->load->view('template/footer');
+    }
 }
