@@ -7,34 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.boots trap4.min.css" rel="stylesheet" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+
+    <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="icon" href="assets/img/books.png" type="image/x-icon">
+    <title>Book</title>
 </head>
 
-<body class="sb-nav-fixed">
-    <header>
-        <nav class="sb-topnav navbar navbar-expand navbar- dark bg-dark">
-            <a class="navbar-brand" href="index.html">SISTEM INFORMASI IKLC</a>
-            <<!-- Navbar Search-->
-                <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-                    <div class="input-group">
-                        <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria- describedby="basic-addon2" />
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
-                        </div>
-                    </div>
-                </form>
-                <!-- Navbar-->
-                <ul class="navbar-nav ml-auto ml-md-0">
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/uas_si2" style="vertical-align: middle">
+                <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
+                Buku Hehe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/uas_si2">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Books</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data- toggle="dropdown" aria-haspopup="true" aria- expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                        <div class="dropdown-menu dropdown-menu- right" aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="login.html">Logout</a>
-                        </div>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Login
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">User</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Admin</a></li>
+                        </ul>
                     </li>
                 </ul>
-        </nav>
-    </header>}
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
