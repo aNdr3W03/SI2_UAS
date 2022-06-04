@@ -4,4 +4,4 @@ $route['default_controller'] = 'homepage';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['people'] = 'contact/people';
+$route['aslab'] = 'contact/aslab';
