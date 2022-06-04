@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 04, 2022 at 05:42 PM
+- Server version: 10.4.22-MariaDB
+- PHP Version: 8.0.13
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="si2_uas" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="tbl_buku">
+                CREATE TABLE `tbl_buku` (
+                  `id_buku` int(5) NOT NULL AUTO_INCREMENT,
+                  `nama_buku` varchar(50) NOT NULL,
+                  `penulis_buku` varchar(20) NOT NULL,
+                  PRIMARY KEY (`id_buku`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'si2_uas'
+    -->
+    <database name="si2_uas">
+        <!-- Table tbl_buku -->
+        <table name="tbl_buku">
+            <column name="id_buku">1</column>
+            <column name="nama_buku">Cerdas Tidak Cermat</column>
+            <column name="penulis_buku">Biggus Cardian</column>
+        </table>
+        <table name="tbl_buku">
+            <column name="id_buku">2</column>
+            <column name="nama_buku">Pemliki Sertifikat Dunia</column>
+            <column name="penulis_buku">Sunda Empire</column>
+        </table>
+    </database>
+</pma_xml_export>
