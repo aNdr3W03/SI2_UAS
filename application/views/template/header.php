@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/uas_si2" style="vertical-align: middle">
+            <a class="navbar-brand" href="#" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
