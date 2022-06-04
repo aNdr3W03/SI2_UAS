@@ -3,4 +3,6 @@
         <center> CONTOH KONTAK <br> SISTEM INFORMASI 2020
         </center>
     </h2>
+
+    <table></table>
 </div>
