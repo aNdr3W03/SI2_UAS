@@ -3,8 +3,12 @@ class Book extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('template/header');
-        $this->load->view('book_view');
-        $this->load->view('template/footer');
+        $this->load->model('book_model');
+
+        $data = $this->book_model->GetBuku('tbl_buku');
+
+        $data = array('data' => $data);
+
+        $this->load->view('book_view', $data);
     }
 }
