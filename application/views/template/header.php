@@ -13,13 +13,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="icon" href="assets/img/books.png" type="image/x-icon">
-    <title>Book</title>
+
+    <!-- Link Font -->
+    <!-- FONTS -->
+    <!-- MANJARI 100 400 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        div {
+            font-family: 'Manjari', sans-serif;
+        }
+    </style>
+    <!-- Link Font -->
+
+    <title>Buku</title>
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="vertical-align: middle">
+            <a class="navbar-brand" href="homepage" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
@@ -30,19 +45,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="homepage">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="book">Books</a>
+                        <a class="nav-link" href="book">Daftar Buku</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about">About</a>
+                        <a class="nav-link" href="about">Tentang Kami</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact Us</a>
+                        <a class="nav-link" href="contact">Kontak</a>
                     </li>
 
                     <li class="nav-item">
@@ -54,7 +69,7 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="user">User</a></li>
+                            <li><a class="dropdown-item" href="user">Pengguna</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -64,8 +79,8 @@
                 </ul>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Cari</button>
                 </form>
             </div>
         </div>

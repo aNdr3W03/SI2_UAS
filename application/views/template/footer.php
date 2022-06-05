@@ -1,11 +1,11 @@
     <footer class="fixed-bottom py-4 mt-auto" style="background-color: #C8FAFF;">
         <div class="container-fluid">
             <div class="d-flex align-items-center justify-content-between small fixed">
-                <div class="text-muted">Copyright &copy;BookHehe 2022</div>
+                <div class="text-muted">Copyright &copy; Buku Hehe 2022</div>
                 <div>
                     <a href="aslab" class="text-decoration-none link-dark">Asisten Laboratorium</a> &middot;
-                    <a href="#" class="text-decoration-none link-dark">Privacy Policy</a> &middot;
-                    <a href="#" class="text-decoration-none link-dark">Terms &amp; Conditions</a>
+                    <a href="#" class="text-decoration-none link-dark">Kebijakan Privasi</a> &middot;
+                    <a href="#" class="text-decoration-none link-dark">Syarat &amp; Ketentuan</a>
                 </div>
             </div>
         </div>

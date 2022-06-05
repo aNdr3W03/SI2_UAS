@@ -3,30 +3,45 @@
 
 <head>
     <title>Buku</title>
+    <style>
+        .table-container {
+            padding: 0;
+            margin: 30px 25%;
+        }
+        @media only screen and (max-width: 1000px) {
+            .table-container {
+                padding: 0;
+                margin: 30px 100px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
     <center>
-        <h2 style="margin-top: 100px;">Daftar Buku </h2>
-        <center>
-            <table align="center" border="1" style="border-collapse: collapse;">
-                <tr style="background: grey; font-weight:bold;align:center">
-                    <td>ID</td>
-                    <td>Nama</td>
-                    <td>Penulis</td>
-                    <td colspan="3"></td>
-                </tr>
+        <h2 style="margin-top: 120px;">Daftar Buku</h2>
 
-                <?php foreach ($data as $buku) { ?>
+        <div class="table-container">
+            <table class="table table-info table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nama</th>
+                        <th>Penulis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($data as $buku) { ?>
                     <tr>
                         <td><?php echo $buku['id_buku']; ?></td>
                         <td><?php echo $buku['nama_buku']; ?></td>
                         <td><?php echo $buku['penulis_buku']; ?></td>
                     </tr>
-                <?php } ?>
+                    <?php } ?>
+                </tbody>
             </table>
-
+        </div>
+    </center>
 </body>
 
 </html>
