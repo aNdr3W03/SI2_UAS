@@ -8,7 +8,7 @@
 <body>
 
     <center>
-        <h2 style="margin-top: 100px;">Daftar Buku </h2>
+        <h2 style="margin-top: 120px;">Daftar Buku </h2>
         <center>
             <table align="center" border="1" style="border-collapse: collapse;">
                 <tr style="background: grey; font-weight:bold;align:center">
