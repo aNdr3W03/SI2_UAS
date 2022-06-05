@@ -54,11 +54,11 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">User</a></li>
+                            <li><a class="dropdown-item" href="user">User</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Admin</a></li>
+                            <li><a class="dropdown-item" href="admin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>

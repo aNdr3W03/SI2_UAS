@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
 
     <style>
-        div{
+        div {
             font-family: 'Manjari', sans-serif;
         }
     </style>
@@ -33,12 +33,12 @@
 
     <div style="margin-top: 10px; text-align: center; margin-left: 350px; margin-right: 350px">
         <p>
-            Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah 
-            digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru 
+            Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah
+            digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru
             dunia membaca 4 literatur.
         </p>
     </div>
 
-    <div style="margin-bottom: 100px;"/>
-    
+    <div style="margin-bottom: 100px;" />
+
 </body>
