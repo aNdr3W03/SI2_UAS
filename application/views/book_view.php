@@ -4,7 +4,16 @@
 <head>
     <title>Buku</title>
     <style>
-        
+        .table-container {
+            padding: 0;
+            margin: 30px 25%;
+        }
+        @media only screen and (max-width: 1000px) {
+            .table-container {
+                padding: 0;
+                margin: 30px 100px;
+            }
+        }
     </style>
 </head>
 
@@ -12,7 +21,7 @@
     <center>
         <h2 style="margin-top: 120px;">Daftar Buku</h2>
 
-        <div style="margin: 30px 10%">
+        <div class="table-container">
             <table class="table table-info table-striped table-hover">
                 <thead>
                     <tr>
