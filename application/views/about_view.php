@@ -15,9 +15,9 @@
 
 <div style="margin-top: 10px; text-align: center; margin-left: 350px; margin-right: 350px">
     <p>
-        Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah 
-        digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru 
-        dunia membaca 4 literatur. Kami di sini 100% bergerak independen untuk membantu masyarakat 
+        Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah
+        digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru
+        dunia membaca 4 literatur. Kami di sini 100% bergerak independen untuk membantu masyarakat
         dalam mengembangkan minat baca.
     </p>
 </div>

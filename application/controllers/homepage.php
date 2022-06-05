@@ -8,4 +8,11 @@ class Homepage extends CI_Controller
 		$this->load->view('homepage_view');
 		$this->load->view('template/footer');
 	}
+
+	function denah()
+	{
+		$this->load->view('template/header');
+		$this->load->view('denah_view');
+		$this->load->view('template/footer');
+	}
 }
