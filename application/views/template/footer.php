@@ -3,6 +3,7 @@
             <div class="d-flex align-items-center justify-content-between small fixed">
                 <div class="text-muted">Copyright &copy;BookHehe 2022</div>
                 <div>
+                    <a href="aslab" class="text-decoration-none link-dark">Asisten Laboratorium</a> &middot;
                     <a href="#" class="text-decoration-none link-dark">Privacy Policy</a> &middot;
                     <a href="#" class="text-decoration-none link-dark">Terms &amp; Conditions</a>
                 </div>
@@ -23,6 +24,6 @@
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/datatables- demo.js"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>

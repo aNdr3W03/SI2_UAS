@@ -13,13 +13,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="icon" href="assets/img/books.png" type="image/x-icon">
+
+    <!-- Link Font -->
+    <!-- FONTS -->
+    <!-- MANJARI 100 400 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        div {
+            font-family: 'Manjari', sans-serif;
+        }
+    </style>
+    <!-- Link Font -->
+
     <title>Book</title>
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/uas_si2" style="vertical-align: middle">
+            <a class="navbar-brand" href="#" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
@@ -45,16 +60,20 @@
                         <a class="nav-link" href="contact">Contact Us</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="denah">Denah</a>
+                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">User</a></li>
+                            <li><a class="dropdown-item" href="user">User</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Admin</a></li>
+                            <li><a class="dropdown-item" href="admin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>
