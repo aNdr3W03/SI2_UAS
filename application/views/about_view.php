@@ -5,7 +5,7 @@
 
 <body>
 
-    <div style="margin-top: 130px; text-align: center;">
+    <div style="margin-top: 120px; text-align: center;">
         <img src="assets\img\about_title.png" width="170px">
     </div>
 

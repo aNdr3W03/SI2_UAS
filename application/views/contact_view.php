@@ -1,5 +1,5 @@
 <div>
-    <h2 style="margin-top:70px">
+    <h2 style="margin-top:120px">
         <center>
             KONTAK KAMI <br>
             Berani bertanya, mengenal jalan.

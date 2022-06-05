@@ -1,4 +1,4 @@
-<div style="margin-top: 100px; text-align: center;">
+<div style="margin-top: 120px; text-align: center;">
     <h1 style=" margin-font-weight: bold;">
         DENAH PERPUSTAKAAN HEHE
     </h1>
