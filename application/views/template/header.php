@@ -28,11 +28,12 @@
     </style>
     <!-- Link Font -->
 
-    <title>Buku</title>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF">
         <div class="container-fluid">
             <a class="navbar-brand" href="homepage" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
@@ -80,7 +81,9 @@
 
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Cari</button>
+                    <button class="btn btn-outline-info" style="color: #0082B4" type="submit">
+                        <span class="iconify" data-icon="fe:search"></span>
+                    </button>
                 </form>
             </div>
         </div>

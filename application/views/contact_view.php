@@ -1,4 +1,11 @@
-<div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buku Hehe - Kontak</title>
+</head>
+
+<body>
     <h2 style="margin-top:120px">
         <center>
             KONTAK KAMI <br>
@@ -6,7 +13,7 @@
         </center>
     </h2>
 
-    <body style="margin-top: 100px">
+    <div style="margin-top: 100px">
         <center>
             <h3> Daftar Kontak </h3>
             <table style="border: dashed" width="70%">
@@ -32,5 +39,7 @@
                 </tr>
             </table>
         </center>
-    </body>
-</div>
+    </div>
+</body>
+
+</html>
