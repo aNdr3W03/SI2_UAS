@@ -49,7 +49,7 @@
                 <img src="https://wallpapercave.com/wp/wp6651848.jpg" class="d-block w-100" alt="assets\img\book_carousel-3.png">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Ariel Matius Surbakti</h5>
-                    <p>Jika orang lain bisa, kenapa harus kita?</p>
+                    <p>Dengan membaca, kita dapat mengetahui isi suatu buku</p>
                 </div>
             </div>
             <div class="carousel-item">
