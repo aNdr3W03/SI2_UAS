@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/uas_si2" style="vertical-align: middle">
+            <a class="navbar-brand" href="#" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
@@ -30,19 +30,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/uas_si2">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
+                        <a class="nav-link" href="book">Books</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="denah">Denah</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -51,7 +55,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">User</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">Admin</a></li>
                         </ul>
                     </li>
