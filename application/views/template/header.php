@@ -28,7 +28,7 @@
     </style>
     <!-- Link Font -->
 
-    <title>Book</title>
+    <title>Buku</title>
 </head>
 
 <body>
@@ -49,15 +49,15 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="book">Books</a>
+                        <a class="nav-link" href="book">Daftar Buku</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about">About</a>
+                        <a class="nav-link" href="about">Tentang Kami</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact Us</a>
+                        <a class="nav-link" href="contact">Kontak</a>
                     </li>
 
                     <li class="nav-item">
@@ -69,7 +69,7 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="user">User</a></li>
+                            <li><a class="dropdown-item" href="user">Pengguna</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -79,8 +79,8 @@
                 </ul>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Cari</button>
                 </form>
             </div>
         </div>
