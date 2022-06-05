@@ -5,7 +5,7 @@
             Berani bertanya, mengenal jalan. 
         </center>
     </h2>
-    <body>
+    <body style="margin-top: 100px">
         <center>
             <h3> Daftar Kontak </h3>
             <table style="border: dashed" width="70%">
