@@ -20,11 +20,11 @@
         <img src="assets\img\about_title.png" width="170px">
     </div>
 
-    <div style="text-align: center; margin-top: 30px;">
+    <div style="text-align: center; margin-top: 50px;">
         <img src="assets\img\about_pics.png" alt="pics" width="1200px">
     </div>
 
-    <div style="margin-top: 10px; text-align: center;">
+    <div style="margin-top: 30px; text-align: center;">
         <h1 style=" margin-font-weight: bold;">
             Membaca dapat membuka wawasan <br>
             dan tugas kami adalah membantu Anda
