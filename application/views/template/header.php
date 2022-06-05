@@ -34,7 +34,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="vertical-align: middle">
+            <a class="navbar-brand" href="homepage" style="vertical-align: middle">
                 <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="homepage">Home</a>
                     </li>
 
                     <li class="nav-item">
