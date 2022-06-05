@@ -16,8 +16,8 @@
                 </tr>
                 <tr>
                     <td>  <img src="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png" height=50 width=50> </td>
-                    <td> 082269696969 </td>
-                    <td> Kontak Kami </a> </td>
+                    <td> 082269696966 </td>
+                    <td> <a href="http://wa.me/6282269696966"> Kontak Kami </a> </td>
                 </tr>
                 <tr>
                     <td> <img src="https://www.freepnglogos.com/uploads/facebook-logo-13.png" height=50 width=50> </td>
