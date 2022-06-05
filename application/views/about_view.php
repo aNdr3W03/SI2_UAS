@@ -1,8 +1,11 @@
+<!DOCTYPE html>
+<html>
+
 <head>
+    <title>Buku Hehe - Tentang Kami</title>
 </head>
 
 <body>
-
     <div style="margin-top: 130px; text-align: center;">
         <img src="assets\img\about_title.png" width="170px">
     </div>

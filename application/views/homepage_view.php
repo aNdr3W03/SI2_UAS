@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+    <title>Buku Hehe</title>
+
     <style>
         .carousel-caption {
             background-color: white;

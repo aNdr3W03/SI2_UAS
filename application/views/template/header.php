@@ -30,8 +30,6 @@
 
     <!-- Iconify -->
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-
-    <title>Buku</title>
 </head>
 
 <body>
