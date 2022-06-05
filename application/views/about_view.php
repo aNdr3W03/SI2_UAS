@@ -24,7 +24,7 @@
         <img src="assets\img\about_pics.png" alt="pics" width="1200px">
     </div>
 
-    <div style="margin-top: 30px; text-align: center;">
+    <div style="margin-top: 50px; text-align: center;">
         <h1 style=" margin-font-weight: bold;">
             Membaca dapat membuka wawasan <br>
             dan tugas kami adalah membantu Anda
@@ -38,6 +38,26 @@
             dunia membaca 4 literatur.
         </p>
     </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <img src="assets\img\about_pics2.png" alt="pics" width="1200px">
+    </div>
+
+    <div style="margin-top: 50px; text-align: center;">
+        <h1 style=" margin-font-weight: bold;">
+            Kami adalah tim kecil <br>
+            namun dengan tujuan yang besar
+        </h1>
+    </div>
+
+    <div style="margin-top: 10px; text-align: center; margin-left: 350px; margin-right: 350px">
+        <p>
+            Kami 100% independen dan berada di sini siap melayani kebutuhan membaca banyak orang
+            dan membantu mereka memperluas pandangan mereka terhadap apa yang mereka sukai.
+        </p>
+    </div>
+
+    
 
     <div style="margin-bottom: 100px;"/>
     
