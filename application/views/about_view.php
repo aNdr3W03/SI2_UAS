@@ -52,38 +52,66 @@
     <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 10px; text-align: center; margin-left: 150px; margin-right: 150px">
         <div class="col">
             <div class="card h-100">
-            <img src="assets\img\imamul_pic.png" class="card-img-top" alt="member_pics">
-            <div class="card-body">
-                <h5 class="card-title">Al Imamul Luthfi</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Andrew Benedictus Jamesie</h5>
-                <p class="card-text">This is a short card.</p>
-            </div>
+                <img src="assets\img\imamul_pic.jpeg" class="card-img-top" alt="member_pics">
+                <div class="card-body">
+                    <h4 class="card-title"> Al Imamul Luthfi </h4>
+                    <p class="card-title"> 201401032 </p>
+                    <p class="card-text">Pimpinan Human Resource Department dari Buku Hehe. <br> Medan, Indonesia</p>
+                    <a href="https://www.github.com/OxygenAddicted" style="margin-right: 20px; color: transparent;">
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/al-imamul-luthfi-9a86561a5/">
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ariel Matius Surbakti</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
+                <img src="assets\img\andrew_pic.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Andrew Benedictus Jamesie</h5>
+                    <p class="card-title"> 201401035 </p>
+                    <p class="card-text">Chief Executive Officer dari Buku Hehe. <br> Medan, Indonesia</p>
+                    <a href="https://github.com/aNdr3W03" style="margin-right: 20px; color: transparent;">
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/andrew-benedictus-jamesie-07658a1b3/">
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Avin Chaili Salim</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <img src="assets\img\ariel_pic.jpeg" class="card-img-top" alt="member_pics">
+                <div class="card-body">
+                    <h5 class="card-title"> Ariel Matius Surbakti </h5>
+                    <p class="card-title"> 201401038 </p>
+                    <p class="card-text">Ketua Divisi Back-End Web Programmming dari Buku Hehe. <br> Medan, Indonesia</p>
+                    <a href="https://github.com/arielmatius" style="margin-right: 20px; color: transparent;">
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/ariel-matius-surbakti-a96a18227/">
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                </div>
             </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="assets\img\avin_pic.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Avin Chaili Salim </h5>
+                    <p class="card-title"> 201401040 </p>
+                    <p class="card-text">Ketua Divisi Front-End Web Programming dari Buku Hehe. <br> Medan, Indonesia</p>
+                    <a href="https://github.com/AvinChailiSalim" style="margin-right: 20px; color: transparent;">
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/avin-salim-682218201/">
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                    </a>
+                </div>
             </div>
         </div>
     </div>
