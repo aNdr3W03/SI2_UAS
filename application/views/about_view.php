@@ -1,16 +1,8 @@
 <head>
 
-    <!-- FONTS -->
-    <!-- MANJARI 100 400 700-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
-
-    <style>
-        div{
-            font-family: 'Manjari', sans-serif;
-        }
-    </style>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </head>
 
@@ -57,7 +49,44 @@
         </p>
     </div>
 
-    
+    <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 10px; text-align: center; margin-left: 150px; margin-right: 150px">
+        <div class="col">
+            <div class="card h-100">
+            <img src="assets\img\imamul_pic.png" class="card-img-top" alt="member_pics">
+            <div class="card-body">
+                <h5 class="card-title">Al Imamul Luthfi</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Andrew Benedictus Jamesie</h5>
+                <p class="card-text">This is a short card.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ariel Matius Surbakti</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Avin Chaili Salim</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <div style="margin-bottom: 100px;"/>
     
