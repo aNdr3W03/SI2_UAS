@@ -1,19 +1,20 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <title>Buku Hehe - Login Admin</title>
+
+    <title>Login</title>
+
 </head>
 
 <body>
-    <div style="margin-top: 120px; text-align: center;">
-        <h1 style=" margin-font-weight: bold;">
-            HALAMAN ADMIN AKAN BEKERJA PADA SAAT UAS
-        </h1>
-    </div>
-    
-    <div style="margin-bottom: 100px; ">
-    </div>
+
+    <h1>Login berhasil!</h1>
+
+    <h2>Hai, <?php echo $this->session->userdata("nama"); ?>
+    </h2> <a href="<?php echo base_url('loginadmin/logout'); ?>">Logout</a>
+
 </body>
 
 </html>

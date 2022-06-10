@@ -74,7 +74,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="admin">Admin</a></li>
+                            <li><a class="dropdown-item" href="loginadmin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>
