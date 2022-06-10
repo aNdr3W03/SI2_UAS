@@ -24,9 +24,9 @@
         <h2 style="margin-top: 120px;">Daftar Buku</h2>
 
         <div class="table-container">
-            <table class="table table-info table-striped table-hover">
+            <table class="table table-info table-striped table-hover" style="vertical-align: middle">
                 <thead>
-                    <tr>
+                    <tr style="text-align: center">
                         <th>ID</th>
                         <th>Nama</th>
                         <th>Penulis</th>
@@ -35,7 +35,7 @@
                 <tbody>
                     <?php foreach ($data as $buku) { ?>
                         <tr>
-                            <td><?php echo $buku['id_buku']; ?></td>
+                            <td style="text-align: center"><?php echo $buku['id_buku']; ?></td>
                             <td><?php echo $buku['nama_buku']; ?></td>
                             <td><?php echo $buku['penulis_buku']; ?></td>
                         </tr>

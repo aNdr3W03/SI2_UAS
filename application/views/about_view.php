@@ -50,7 +50,7 @@
     <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 10px; text-align: center; margin-left: 150px; margin-right: 150px">
         <div class="col">
             <div class="card h-100">
-                <img src="assets\img\imamul_pic.jpeg" class="card-img-top" alt="member_pics">
+                <img src="assets\img\imamul_pic.jpeg" class="card-img-top rounded" alt="member_pics">
                 <div class="card-body">
                     <h4 class="card-title"> Al Imamul Luthfi </h4>
                     <p class="card-title"> 201401032 </p>
@@ -66,7 +66,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="assets\img\andrew_pic.jpeg" class="card-img-top" alt="...">
+                <img src="assets\img\andrew_pic.jpeg" class="card-img-top rounded" alt="member_pics">
                 <div class="card-body">
                     <h5 class="card-title">Andrew Benedictus Jamesie</h5>
                     <p class="card-title"> 201401035 </p>
@@ -82,7 +82,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="assets\img\ariel_pic.jpeg" class="card-img-top" alt="member_pics">
+            <img src="assets\img\ariel_pic.jpeg" class="card-img-top rounded" alt="member_pics">
                 <div class="card-body">
                     <h5 class="card-title"> Ariel Matius Surbakti </h5>
                     <p class="card-title"> 201401038 </p>
@@ -98,7 +98,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="assets\img\avin_pic.jpeg" class="card-img-top" alt="...">
+            <img src="assets\img\avin_pic.jpeg" class="card-img-top rounded" alt="member-pics">
                 <div class="card-body">
                     <h5 class="card-title"> Avin Chaili Salim </h5>
                     <p class="card-title"> 201401040 </p>
