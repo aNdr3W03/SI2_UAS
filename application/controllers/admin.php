@@ -68,7 +68,7 @@ class Admin extends CI_Controller
             'nama_buku' => $siswa[0]['nama_buku'],
             'penulis_buku' => $siswa[0]['penulis_buku'],
         );
-        $this->load->view('form_edit', $data);
+        $this->load->view('editBuku_view', $data);
     }
 
     public function update_data()
@@ -103,7 +103,7 @@ class Admin extends CI_Controller
                 'nama_buku' => $siswa[0]['nama_buku'],
                 'penulis_buku' => $siswa[0]['penulis_buku'],
             );
-            $this->load->view('form_edit', $data);
+            $this->load->view('editBuku_view', $data);
         }
     }
 }
