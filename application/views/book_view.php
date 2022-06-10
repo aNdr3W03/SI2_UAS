@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>Buku</title>
+    <title>Buku Hehe - Daftar Buku</title>
+    
     <style>
         .table-container {
             padding: 0;
