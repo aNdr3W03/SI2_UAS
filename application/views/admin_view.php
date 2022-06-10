@@ -10,7 +10,7 @@
 
 <body>
 
-    <h1>Login berhasil!</h1>
+    <h1 style="margin-top: 100px;">Login Admin berhasil!</h1>
 
     <h2>Hai, <?php echo $this->session->userdata("nama"); ?>
     </h2> <a href="<?php echo base_url('loginadmin/logout'); ?>">Logout</a>
