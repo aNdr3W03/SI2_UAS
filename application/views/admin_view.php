@@ -36,7 +36,7 @@
                 <tbody>
                     <?php foreach ($data as $buku) { ?>
                         <tr>
-                            <td><?php echo $buku['id_buku']; ?></td>
+                            <td style="text-align: center"><?php echo $buku['id_buku']; ?></td>
                             <td><?php echo $buku['nama_buku']; ?></td>
                             <td><?php echo $buku['penulis_buku']; ?></td>
                             <td><a href="admin/edit_data/<?= $buku['id_buku']; ?>" class="btn btn-warning" role="button">Edit</td>
