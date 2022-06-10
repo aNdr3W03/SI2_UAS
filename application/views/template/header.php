@@ -50,7 +50,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="book">Daftar Buku</a>
+                        <a class="nav-link" href="buku">Daftar Buku</a>
                     </li>
 
                     <li class="nav-item">
@@ -70,11 +70,11 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="loginguest">Pengguna</a></li>
+                            <li><a class="dropdown-item" href="loginGuest">Guest</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="loginadmin">Admin</a></li>
+                            <li><a class="dropdown-item" href="loginAdmin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>
