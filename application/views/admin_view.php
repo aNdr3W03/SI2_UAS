@@ -24,14 +24,13 @@
         <h2 style="margin-top: 120px;">HALAMAN ADMIN - Daftar Buku</h2>
 
         <div class="table-container">
-            <table class="table table-info table-striped table-hover">
+            <table class="table table-info table-striped table-hover" style="vertical-align: middle">
                 <thead>
-                    <tr>
+                    <tr style="text-align: center">
                         <th>ID</th>
                         <th>Nama</th>
                         <th>Penulis</th>
-                        <th></th>
-                        <th></th>
+                        <th colspan="2">Tindakan</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,13 +39,13 @@
                             <td><?php echo $buku['id_buku']; ?></td>
                             <td><?php echo $buku['nama_buku']; ?></td>
                             <td><?php echo $buku['penulis_buku']; ?></td>
-                            <td><a href="admin/edit_data/<?= $buku['id_buku']; ?>">Edit</td>
-                            <td><a href="admin/delete_data/<?= $buku['id_buku']; ?>">Hapus</td>
+                            <td><a href="admin/edit_data/<?= $buku['id_buku']; ?>" class="btn btn-warning" role="button">Edit</td>
+                            <td><a href="admin/delete_data/<?= $buku['id_buku']; ?>" class="btn btn-danger" role="button">Hapus</td>
                         </tr>
                     <?php } ?>
                 </tbody>
             </table>
-            <center> <a href="<?php echo base_url('admin/add_data'); ?>">Tambah Buku</a> </center>
+            <center> <a href="<?php echo base_url('admin/add_data'); ?>" class="btn btn-success">Tambah Buku</a> </center>
         </div>
     </center>
 </body>
