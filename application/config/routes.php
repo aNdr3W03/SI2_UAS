@@ -6,5 +6,3 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['aslab'] = 'contact/aslab';
 $route['denah'] = 'homepage/denah';
-$route['admin'] = 'homepage/admin_function';
-$route['user'] = 'homepage/user_function';

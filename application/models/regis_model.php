@@ -2,7 +2,7 @@
 <?php
 
 defined('BASEPATH') or exit('No direct script access allowe d');
-class Book_model extends CI_Model
+class Regis_model extends CI_Model
 {
     public function construct()
 

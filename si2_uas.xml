@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
-- version 5.1.1
+- version 5.0.3
 - https://www.phpmyadmin.net
 -
 - Host: 127.0.0.1
-- Generation Time: Jun 04, 2022 at 05:42 PM
-- Server version: 10.4.22-MariaDB
-- PHP Version: 8.0.13
+- Generation Time: Jun 11, 2022 at 01:15 AM
+- Server version: 10.4.14-MariaDB
+- PHP Version: 7.2.34
 -->
 
 <pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
@@ -16,13 +16,29 @@
     -->
     <pma:structure_schemas>
         <pma:database name="si2_uas" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="tbl_admin">
+                CREATE TABLE `tbl_admin` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(20) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
             <pma:table name="tbl_buku">
                 CREATE TABLE `tbl_buku` (
                   `id_buku` int(5) NOT NULL AUTO_INCREMENT,
                   `nama_buku` varchar(50) NOT NULL,
                   `penulis_buku` varchar(20) NOT NULL,
                   PRIMARY KEY (`id_buku`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+                ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="tbl_guest">
+                CREATE TABLE `tbl_guest` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(20) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
             </pma:table>
         </pma:database>
     </pma:structure_schemas>
@@ -31,6 +47,27 @@
     - Database: 'si2_uas'
     -->
     <database name="si2_uas">
+        <!-- Table tbl_admin -->
+        <table name="tbl_admin">
+            <column name="id">1</column>
+            <column name="username">ariel</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
+        <table name="tbl_admin">
+            <column name="id">2</column>
+            <column name="username">andrew</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
+        <table name="tbl_admin">
+            <column name="id">3</column>
+            <column name="username">avin</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
+        <table name="tbl_admin">
+            <column name="id">4</column>
+            <column name="username">imamul</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
         <!-- Table tbl_buku -->
         <table name="tbl_buku">
             <column name="id_buku">1</column>
@@ -41,6 +78,27 @@
             <column name="id_buku">2</column>
             <column name="nama_buku">Pemliki Sertifikat Dunia</column>
             <column name="penulis_buku">Sunda Empire</column>
+        </table>
+        <!-- Table tbl_guest -->
+        <table name="tbl_guest">
+            <column name="id">1</column>
+            <column name="username">ariel</column>
+            <column name="password">5f6955d227a320c7f1f6c7da2a6d96a851a8118f</column>
+        </table>
+        <table name="tbl_guest">
+            <column name="id">2</column>
+            <column name="username">andrew</column>
+            <column name="password">5f6955d227a320c7f1f6c7da2a6d96a851a8118f</column>
+        </table>
+        <table name="tbl_guest">
+            <column name="id">3</column>
+            <column name="username">avin</column>
+            <column name="password">5f6955d227a320c7f1f6c7da2a6d96a851a8118f</column>
+        </table>
+        <table name="tbl_guest">
+            <column name="id">4</column>
+            <column name="username">imamul</column>
+            <column name="password">5f6955d227a320c7f1f6c7da2a6d96a851a8118f</column>
         </table>
     </database>
 </pma_xml_export>

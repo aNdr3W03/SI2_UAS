@@ -1,29 +1,31 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Buku Hehe</title>
 
     <style>
         .carousel-caption {
             background-color: white;
             border-radius: 7px;
         }
+        
+        .carousel-caption p {
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
 
 <body>
-
-    <div style="margin-top: 70px; text-align: center;">
-        <h1 style=" margin-font-weight: bold;">
-            <br>
+    <div style="margin-top: 120px; text-align: center;">
+        <h1 style="font-weight: bold">
             MARI MEMBACA!!
         </h1>
     </div>
 
     <!-- Carousel -->
-    <div style="margin:auto;width:50%;" id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div style="margin:auto; width:50%;" id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,7 +44,8 @@
                 <img src="https://wallpapercave.com/wp/wp2046075.jpg" class="d-block w-100" alt="assets\img\book_carousel-2.png">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Andrew Benedictus Jamesie</h5>
-                    <p>Jika Anda paham, tetaplah mengejar SCL. Jika tidak, tetaplah berpura-pura paham</p>
+                    <p>Jika Anda paham, tetaplah mengejar SCL</p>
+                    <p>Jika tidak, tetaplah berpura-pura paham</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -70,6 +73,11 @@
         </button>
     </div>
     <!-- Carousel -->
+
+    <div style="margin-top: 70px; text-align: center;">
+        <h2 style="font-weight: bold">Lihat Daftar Buku Kami</h2>
+        <a class="btn btn-info btn-lg" href="<?= base_url() ?>book" role="button">Daftar Buku</a>
+    </div>
 
 </body>
 

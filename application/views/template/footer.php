@@ -1,6 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @media only screen and (max-width: 700px) {
+            .footer-container {
+                text-align: center;
+                flex-direction: column!important;
+            }
+        }
+    </style>
+</head>
+
+<body>
     <footer class="fixed-bottom py-4 mt-auto" style="background-color: #C8FAFF;">
         <div class="container-fluid">
-            <div class="d-flex align-items-center justify-content-between small fixed">
+            <div class="footer-container d-flex align-items-center justify-content-between small fixed">
                 <div class="text-muted">Copyright &copy; Buku Hehe 2022</div>
                 <div>
                     <a href="aslab" class="text-decoration-none link-dark">Asisten Laboratorium</a> &middot;
@@ -23,7 +38,6 @@
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/datatables- demo.js"></script>
+</body>
 
-    </body>
-
-    </html>
+</html>
