@@ -21,7 +21,7 @@ class Loginadmin extends CI_Controller
         $password = $this->input->post('password');
         $where = array(
             'username' => $username,
-            'password' => $password
+            'password' => sha1($password)
         );
 
         $cek = $this->login_model->cek_login("tbl_admin", $where)->num_rows();

@@ -21,7 +21,7 @@ class Loginguest extends CI_Controller
         $password = $this->input->post('password');
         $where = array(
             'username' => $username,
-            'password' => $password
+            'password' => sha1($password)
         );
 
         $cek = $this->login_model->cek_login("tbl_guest", $where)->num_rows();
