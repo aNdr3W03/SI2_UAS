@@ -27,7 +27,7 @@ class Regisadmin extends CI_Controller
             $data = array(
                 'id' => $this->input->post('id'),
                 'username' => $this->input->post('username'),
-                'password' => $this->input->post('password')
+                'password' => sha1($this->input->post('password'))
             );
 
             $data = $this->regis_model->Insert('tbl_admin', $data);
