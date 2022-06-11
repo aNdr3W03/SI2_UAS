@@ -39,8 +39,12 @@
                             <td style="text-align: center"><?php echo $buku['id_buku']; ?></td>
                             <td><?php echo $buku['nama_buku']; ?></td>
                             <td><?php echo $buku['penulis_buku']; ?></td>
-                            <td><a href="admin/edit_data/<?= $buku['id_buku']; ?>" class="btn btn-warning" role="button">Edit</td>
-                            <td><a href="admin/delete_data/<?= $buku['id_buku']; ?>" class="btn btn-danger" role="button">Hapus</td>
+                            <td style="text-align: center">
+                                <a href="admin/edit_data/<?= $buku['id_buku']; ?>" class="btn btn-warning" role="button">Edit
+                            </td>
+                            <td style="text-align: center">
+                                <a href="admin/delete_data/<?= $buku['id_buku']; ?>" class="btn btn-danger" role="button">Hapus
+                            </td>
                         </tr>
                     <?php } ?>
                 </tbody>
