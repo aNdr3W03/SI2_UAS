@@ -12,7 +12,9 @@ class Loginguest extends CI_Controller
 
     function index()
     {
+        $this->load->view('template/header');
         $this->load->view('loginGuest_view');
+        $this->load->view('template/footer');
     }
 
     function login_action()
