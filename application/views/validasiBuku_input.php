@@ -8,13 +8,8 @@
 
 <body>
     <?php echo validation_errors(); ?>
-    <?php echo form_open('validasi'); ?>
-
-    <h4>ID Buku</h4>
-
-    <?php echo form_error('id_buku'); ?>
-
-    <input type="text" name="id_buku" value="<?php echo set_value('id_buku'); ?>" size="30" />
+    <?php echo form_open('validasiBuku'); ?>
+    >
     <h4>Nama Buku</h4>
 
     <?php echo form_error('nama_buku'); ?>

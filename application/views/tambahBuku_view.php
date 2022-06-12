@@ -10,6 +10,10 @@
         <h2 style="margin-top: 120px;">PENAMBAHAN BUKU</h2>   
 
         <table class="table table-info table-striped table-hover" style="vertical-align: middle">
+             <!-- menampilkan isi validasi -->
+             <?php echo validation_errors(); ?>
+             <!-- menampilkan isi validasi -->
+        <?php echo form_open('admin/insert'); ?>
             <?php echo validation_errors(); ?>
             <?php echo form_open('admin/insert'); ?>
             <form method="post" action="<?php echo base_url('admin/insert'); ?>">

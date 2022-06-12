@@ -12,11 +12,6 @@
         <form method="post" action="<?php echo base_url('regisAdmin/insert'); ?>">
             PENAMBAHAN ADMIN
             <tr>
-                <td>ID</td>
-                <td>:</td>
-                <td><input type="text" name="id" placeholder="ID Admin"></td>
-            </tr>
-            <tr>
                 <td>Nama</td>
                 <td>:</td>
                 <td><input type="text" name="username" value="" <?php echo set_value('username'); ?> placeholder="Nama Admin"></td>

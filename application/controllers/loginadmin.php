@@ -19,6 +19,10 @@ class Loginadmin extends CI_Controller
 
     function login_action()
     {
+        // Cek apakah Username kosong
+        $this->form_validation->set_rules('username', 'Nama', 'required', array('required' => 'Silahkan mengisi Username'));
+        // Cek apakah Password kosong
+        $this->form_validation->set_rules('password', 'Password', 'required', array('required' => 'Silahkan mengisi Password'));
         $username = $this->input->post('username');
         $password = $this->input->post('password');
         $where = array(
@@ -26,16 +30,20 @@ class Loginadmin extends CI_Controller
             'password' => sha1($password)
         );
 
-        $cek = $this->login_model->cek_login("tbl_admin", $where)->num_rows();
-        if ($cek > 0) {
-            $data_session = array(
-                'nama' => $username,
-                'status' => "login"
-            );
-            $this->session->set_userdata($data_session);
-            redirect(base_url('admin'));
+        if ($this->form_validation->run() == TRUE) {
+            $cek = $this->login_model->cek_login("tbl_admin", $where)->num_rows();
+            if ($cek > 0) {
+                $data_session = array(
+                    'nama' => $username,
+                    'status' => "login"
+                );
+                $this->session->set_userdata($data_session);
+                redirect(base_url('admin'));
+            } else {
+                echo "Username atau password admin salah!";
+            }
         } else {
-            echo "Username atau password admin salah!";
+            $this->load->view('loginAdmin_view');
         }
     }
 
