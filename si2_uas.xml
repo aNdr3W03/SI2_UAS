@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 - phpMyAdmin XML Dump
-- version 5.0.3
+- version 5.1.1
 - https://www.phpmyadmin.net
 -
 - Host: 127.0.0.1
-- Generation Time: Jun 11, 2022 at 01:15 AM
-- Server version: 10.4.14-MariaDB
-- PHP Version: 7.2.34
+- Generation Time: Jun 12, 2022 at 12:54 PM
+- Server version: 10.4.22-MariaDB
+- PHP Version: 8.0.13
 -->
 
 <pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
@@ -22,7 +22,7 @@
                   `username` varchar(20) NOT NULL,
                   `password` varchar(40) NOT NULL,
                   PRIMARY KEY (`id`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+                ) ENGINE=InnoDB AUTO_INCREMENT=339 DEFAULT CHARSET=utf8mb4;
             </pma:table>
             <pma:table name="tbl_buku">
                 CREATE TABLE `tbl_buku` (
@@ -32,13 +32,23 @@
                   PRIMARY KEY (`id_buku`)
                 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4;
             </pma:table>
+            <pma:table name="tbl_gambar">
+                CREATE TABLE `tbl_gambar` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `deskripsi` varchar(100) NOT NULL,
+                  `nama_file` varchar(100) NOT NULL,
+                  `ukuran_file` double NOT NULL,
+                  `tipe_file` varchar(20) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
             <pma:table name="tbl_guest">
                 CREATE TABLE `tbl_guest` (
                   `id` int(11) NOT NULL AUTO_INCREMENT,
                   `username` varchar(20) NOT NULL,
                   `password` varchar(40) NOT NULL,
                   PRIMARY KEY (`id`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+                ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
             </pma:table>
         </pma:database>
     </pma:structure_schemas>
@@ -68,6 +78,21 @@
             <column name="username">imamul</column>
             <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
         </table>
+        <table name="tbl_admin">
+            <column name="id">336</column>
+            <column name="username">Omega</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
+        <table name="tbl_admin">
+            <column name="id">337</column>
+            <column name="username">Suparman</column>
+            <column name="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</column>
+        </table>
+        <table name="tbl_admin">
+            <column name="id">338</column>
+            <column name="username">traxforce</column>
+            <column name="password">cf7579954ba3792f6a40044c32f28fb62b10863f</column>
+        </table>
         <!-- Table tbl_buku -->
         <table name="tbl_buku">
             <column name="id_buku">1</column>
@@ -76,8 +101,28 @@
         </table>
         <table name="tbl_buku">
             <column name="id_buku">2</column>
-            <column name="nama_buku">Pemliki Sertifikat Dunia</column>
+            <column name="nama_buku">Pemilik Sertifikat Dunia</column>
             <column name="penulis_buku">Sunda Empire</column>
+        </table>
+        <table name="tbl_buku">
+            <column name="id_buku">33</column>
+            <column name="nama_buku">Triple Poem</column>
+            <column name="penulis_buku">Pompei</column>
+        </table>
+        <!-- Table tbl_gambar -->
+        <table name="tbl_gambar">
+            <column name="id">3</column>
+            <column name="deskripsi">bukulagi</column>
+            <column name="nama_file">contoh2.jpg</column>
+            <column name="ukuran_file">37.34</column>
+            <column name="tipe_file">image/jpeg</column>
+        </table>
+        <table name="tbl_gambar">
+            <column name="id">4</column>
+            <column name="deskripsi">bukulagi2</column>
+            <column name="nama_file">contoh21.jpg</column>
+            <column name="ukuran_file">37.34</column>
+            <column name="tipe_file">image/jpeg</column>
         </table>
         <!-- Table tbl_guest -->
         <table name="tbl_guest">
@@ -99,6 +144,16 @@
             <column name="id">4</column>
             <column name="username">imamul</column>
             <column name="password">5f6955d227a320c7f1f6c7da2a6d96a851a8118f</column>
+        </table>
+        <table name="tbl_guest">
+            <column name="id">5</column>
+            <column name="username">Roberto</column>
+            <column name="password">d073426a9a9b8d94284590e1f856f05edaf652b0</column>
+        </table>
+        <table name="tbl_guest">
+            <column name="id">6</column>
+            <column name="username">Anto</column>
+            <column name="password">897854d46120e948608408b922c93ab5e861aa52</column>
         </table>
     </database>
 </pma_xml_export>
