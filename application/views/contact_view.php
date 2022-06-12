@@ -8,11 +8,9 @@
 <body>
 
     <div>
-        <h2 style="margin-top:120px">
-            <center>
+        <h2 style="margin-top:120px; text-align: center;">
                 Kontak Kami <br>
-                Berani bertanya, mengenal jalan.
-            </center>
+                Berani bertanya, mengenal jalan.            
         </h2>
     </div>
     
