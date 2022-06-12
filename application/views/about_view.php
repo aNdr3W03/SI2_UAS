@@ -23,8 +23,8 @@
 
     <div style="margin-top: 10px; text-align: center; margin-left: 350px; margin-right: 350px">
         <p>
-            Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah 
-            digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru 
+            Fokus kami adalah membuat Buku Hehe menjadi sebuah platform membaca yang semakin mudah
+            digunakan oleh semua orang. Sejak 2022, kami sudah membantu 4 orang dari seluruh penjuru
             dunia membaca 4 literatur.
         </p>
     </div>
@@ -56,10 +56,10 @@
                     <p class="card-title"> 201401032 </p>
                     <p class="card-text">Pimpinan Human Resource Department dari Buku Hehe. <br> Medan, Indonesia</p>
                     <a href="https://www.github.com/OxygenAddicted" style="margin-right: 20px; color: transparent;">
-                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text">
                     </a>
                     <a href="https://www.linkedin.com/in/al-imamul-luthfi-9a86561a5/">
-                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text">
                     </a>
                 </div>
             </div>
@@ -72,48 +72,48 @@
                     <p class="card-title"> 201401035 </p>
                     <p class="card-text">Chief Executive Officer dari Buku Hehe. <br> Medan, Indonesia</p>
                     <a href="https://github.com/aNdr3W03" style="margin-right: 20px; color: transparent;">
-                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text">
                     </a>
                     <a href="https://www.linkedin.com/in/andrew-benedictus-jamesie-07658a1b3/">
-                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text">
                     </a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="assets\img\ariel_pic.jpeg" class="card-img-top rounded" alt="member_pics">
+                <img src="assets\img\ariel_pic.jpeg" class="card-img-top rounded" alt="member_pics">
                 <div class="card-body">
                     <h5 class="card-title"> Ariel Matius Surbakti </h5>
                     <p class="card-title"> 201401038 </p>
                     <p class="card-text">Ketua Divisi Back-End Web Programmming dari Buku Hehe. <br> Medan, Indonesia</p>
                     <a href="https://github.com/arielmatius" style="margin-right: 20px; color: transparent;">
-                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text">
                     </a>
                     <a href="https://www.linkedin.com/in/ariel-matius-surbakti-a96a18227/">
-                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text">
                     </a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100">
-            <img src="assets\img\avin_pic.jpeg" class="card-img-top rounded" alt="member-pics">
+                <img src="assets\img\avin_pic.jpeg" class="card-img-top rounded" alt="member-pics">
                 <div class="card-body">
                     <h5 class="card-title"> Avin Chaili Salim </h5>
                     <p class="card-title"> 201401040 </p>
                     <p class="card-text">Ketua Divisi Front-End Web Programming dari Buku Hehe. <br> Medan, Indonesia</p>
                     <a href="https://github.com/AvinChailiSalim" style="margin-right: 20px; color: transparent;">
-                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="GitHub" src="assets\img\github_logo.png" style="width: 40px;" alt="text">
                     </a>
                     <a href="https://www.linkedin.com/in/avin-salim-682218201/">
-                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text"> 
+                        <input type="image" name="LinkedIn" src="assets\img\linkedin_logo.png" style="width: 40px;" alt="text">
                     </a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div style="margin-bottom: 100px;"/>
-    
+    <div style="margin-bottom: 100px;" />
+
 </body>

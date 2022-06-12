@@ -10,7 +10,7 @@
 
 <body>
 
-    <h1>HALAMAN LOGIN ADMIN</h1>
+    <h1 style="margin-top: 100px;">HALAMAN LOGIN ADMIN</h1>
     <!-- menampilkan isi validasi -->
     <?php echo validation_errors(); ?>
     <!-- menampilkan isi validasi -->
