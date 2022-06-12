@@ -12,7 +12,9 @@ class Loginadmin extends CI_Controller
 
     function index()
     {
+        $this->load->view('template/header');
         $this->load->view('loginadmin_view');
+        $this->load->view('template/footer');
     }
 
     function login_action()

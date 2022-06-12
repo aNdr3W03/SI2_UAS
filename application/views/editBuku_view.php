@@ -6,8 +6,9 @@
 </head>
 
 <body>
-    <h2>MENGUBAH IDENTITAS BUKU</h2>
-    <table>
+    <center>
+        <h2 style="margin-top: 120px;">EDIT BUKU</h2>   
+        <table class="table table-info table-striped table-hover" style="vertical-align: middle">
         <!-- menampilkan isi validasi -->
         <?php echo validation_errors(); ?>
         <!-- menampilkan isi validasi -->
