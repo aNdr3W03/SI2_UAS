@@ -35,8 +35,8 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF">
         <div class="container-fluid">
-            <a class="navbar-brand" href="homepage" style="vertical-align: middle">
-                <img src="assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
+            <a class="navbar-brand" href="<?php echo base_url() ?>homepage" style="vertical-align: middle">
+                <img src="<?php echo base_url() ?>assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
                 Buku Hehe
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
