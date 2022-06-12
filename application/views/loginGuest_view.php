@@ -91,12 +91,12 @@
             </div>
 
             <div class="input-box">
-                <input style="border: none; width: 100%;" type="password" name="password" placeholder="Password">
+                <input style="border: none; width: 100%;" type="password" name="password" placeholder="Password" id="formInputPassword">
             </div>
 
-            <div class="form-check">
+            <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" id="showpassCheck" onclick="showpass()">
-                <label class="form-check-label" for="showpassCheck">
+                <label class="form-check-label" for="showpassCheck" style="height: 18px; vertical-align: middle">
                 Tampilkan Password</label>
             </div>
 
