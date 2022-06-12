@@ -33,7 +33,7 @@ class Loginadmin extends CI_Controller
             $this->session->set_userdata($data_session);
             redirect(base_url('admin'));
         } else {
-            echo "Username dan password admin!";
+            echo "Username atau password admin salah!";
         }
     }
 
