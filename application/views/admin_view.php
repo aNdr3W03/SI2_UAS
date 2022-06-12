@@ -50,6 +50,7 @@
                 </tbody>
             </table>
             <center> <a href="<?php echo base_url('admin/add_data'); ?>" class="btn btn-success">Tambah Buku</a> </center>
+            <center style="margin-top: 10px;"> <a href="<?php echo base_url('gambar'); ?>" class="btn btn-success">Tambah Gambar</a> </center>
         </div>
     </center>
 </body>
