@@ -61,7 +61,7 @@ CREATE TABLE `tbl_buku` (
 
 INSERT INTO `tbl_buku` (`id_buku`, `nama_buku`, `penulis_buku`) VALUES
 (1, 'Cerdas Tidak Cermat', 'Biggus Cardian'),
-(2, 'Pemliki Sertifikat Dunia', 'Sunda Empire');
+(2, 'Pemilik Sertifikat Dunia', 'Sunda Empire');
 
 -- --------------------------------------------------------
 
