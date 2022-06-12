@@ -6,7 +6,7 @@
 </div>
 
 <div style="text-align: center; margin-top: 30px;">
-    <img src="https://portal.usu.ac.id/photos/191401089" alt="assets\img\aslab.png" width="500px">
+    <img src="https://portal.usu.ac.id/photos/191401089" alt="assets\img\aslab.png" width="500px" class="rounded">
 </div>
 
 <div style="margin-top: 10px; text-align: center;">
