@@ -64,7 +64,7 @@ CREATE TABLE `tbl_buku` (
 
 INSERT INTO `tbl_buku` (`id_buku`, `nama_buku`, `penulis_buku`) VALUES
 (1, 'Cerdas Tidak Cermat', 'Biggus Cardian'),
-(2, 'Pemliki Sertifikat Dunia', 'Sunda Empire'),
+(2, 'Pemilik Sertifikat Dunia', 'Sunda Empire');
 (33, 'Triple Poem', 'Pompei');
 
 -- --------------------------------------------------------
@@ -88,6 +88,7 @@ CREATE TABLE `tbl_gambar` (
 INSERT INTO `tbl_gambar` (`id`, `deskripsi`, `nama_file`, `ukuran_file`, `tipe_file`) VALUES
 (3, 'bukulagi', 'contoh2.jpg', 37.34, 'image/jpeg'),
 (4, 'bukulagi2', 'contoh21.jpg', 37.34, 'image/jpeg');
+
 
 -- --------------------------------------------------------
 

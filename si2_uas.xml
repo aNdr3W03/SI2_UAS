@@ -101,7 +101,7 @@
         </table>
         <table name="tbl_buku">
             <column name="id_buku">2</column>
-            <column name="nama_buku">Pemliki Sertifikat Dunia</column>
+            <column name="nama_buku">Pemilik Sertifikat Dunia</column>
             <column name="penulis_buku">Sunda Empire</column>
         </table>
         <table name="tbl_buku">
