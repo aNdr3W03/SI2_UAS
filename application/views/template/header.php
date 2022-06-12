@@ -46,23 +46,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="homepage">Home</a>
+                        <a class="nav-link" aria-current="page" href="<?php echo base_url() ?>homepage">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="buku">Daftar Buku</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>buku">Daftar Buku</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about">Tentang Kami</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>about">Tentang Kami</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Kontak</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>contact">Kontak</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="denah">Denah</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>denah">Denah</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -70,11 +70,11 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="loginGuest">Guest</a></li>
+                            <li><a class="dropdown-item" href="<?php echo base_url() ?>loginGuest">Guest</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="loginAdmin">Admin</a></li>
+                            <li><a class="dropdown-item" href="<?php echo base_url() ?>loginAdmin">Admin</a></li>
                         </ul>
                     </li>
 
@@ -83,11 +83,11 @@
                             Register
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="regisGuest">Guest</a></li>
+                            <li><a class="dropdown-item" href="<?php echo base_url() ?>regisGuest">Guest</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="regisAdmin">Admin</a></li>
+                            <li><a class="dropdown-item" href="<?php echo base_url() ?>regisAdmin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>
