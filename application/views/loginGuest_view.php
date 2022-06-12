@@ -10,7 +10,10 @@
 
 <body>
 
-    <h1>HALAMAN LOGIN GUEST</h1>
+    <h1 style="margin-top: 100px;">HALAMAN LOGIN GUEST</h1>
+    <!-- menampilkan isi validasi -->
+    <?php echo validation_errors(); ?>
+    <!-- menampilkan isi validasi -->
 
     <form action="<?php echo base_url('loginGuest/login_action'); ?>" method="post">
 

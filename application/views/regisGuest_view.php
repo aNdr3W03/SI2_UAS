@@ -2,20 +2,20 @@
 <html>
 
 <head>
-    <title>Buku HEHE - Register Admin</title>
+    <title>Buku HEHE - Register Guest</title>
 </head>
 
 <body>
     <table>
-        <h2 style="margin-top: 100px;">PENAMBAHAN ADMIN</h2>
+        <h2 style="margin-top: 100px;">PENAMBAHAN GUEST</h2>
         <?php echo validation_errors(); ?>
-        <?php echo form_open('regisAdmin/insert'); ?>
-        <form method="post" action="<?php echo base_url('regisAdmin/insert'); ?>">
+        <?php echo form_open('regisGuest/insert'); ?>
+        <form method="post" action="<?php echo base_url('regisGuest/insert'); ?>">
 
             <tr>
                 <td>Nama</td>
                 <td>:</td>
-                <td><input type="text" name="username" value="" <?php echo set_value('username'); ?> placeholder="Nama Admin"></td>
+                <td><input type="text" name="username" value="" <?php echo set_value('username'); ?> placeholder="Nama Guest"></td>
             </tr>
             <tr>
                 <td>Password</td>

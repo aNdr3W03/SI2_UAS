@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Regisadmin extends CI_Controller
+class Regisguest extends CI_Controller
 {
 
     public function __construct()
@@ -13,7 +13,7 @@ class Regisadmin extends CI_Controller
     function index()
     {
         $this->load->view('template/header');
-        $this->load->view('regisAdmin_view');
+        $this->load->view('regisGuest_view');
         $this->load->view('template/footer');
     }
 
@@ -21,8 +21,8 @@ class Regisadmin extends CI_Controller
     {
         $this->load->view('template/header');
         $this->load->model('regis_model');
-        // Cek apakah Nama Admin kosong
-        $this->form_validation->set_rules('username', 'Nama', 'required', array('required' => 'Nama Admin harus diisi'));
+        // Cek apakah Nama kosong
+        $this->form_validation->set_rules('username', 'Nama', 'required', array('required' => 'Nama harus diisi'));
         // Cek apakah Password kosong
         $this->form_validation->set_rules('password', 'Password', 'required', array('required' => 'Password harus diisi'));
 
@@ -33,10 +33,10 @@ class Regisadmin extends CI_Controller
                 'password' => sha1($this->input->post('password'))
             );
 
-            $data = $this->regis_model->Insert('tbl_admin', $data);
-            redirect(base_url('loginAdmin'), 'refresh');
+            $data = $this->regis_model->Insert('tbl_guest', $data);
+            redirect(base_url('loginGuest'), 'refresh');
         } else {
-            $this->load->view('regisAdmin_view');
+            $this->load->view('regisGuest_view');
         }
         $this->load->view('template/footer');
     }
