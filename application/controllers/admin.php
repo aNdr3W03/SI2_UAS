@@ -26,11 +26,14 @@ class Admin extends CI_Controller
 
     public function add_data()
     {
+        $this->load->view('template/header');
         $this->load->view('tambahBuku_view');
+        $this->load->view('template/footer');
     }
 
     public function insert()
     {
+        $this->load->view('template/header');
         $this->load->model('buku_model');
         // Cek apakah Nama Buku kosong
         $this->form_validation->set_rules('nama_buku', 'Nama', 'required', array('required' => 'Nama Buku harus diisi'));
@@ -49,18 +52,22 @@ class Admin extends CI_Controller
         } else {
             $this->load->view('tambahBuku_view');
         }
+        $this->load->view('template/footer');
     }
 
     public function delete_data($id_buku)
     {
+        $this->load->view('template/header');
         $id_buku = array('id_buku' => $id_buku);
         $this->load->model('buku_model');
         $this->buku_model->Delete('tbl_buku', $id_buku);
         redirect(base_url('admin'), 'refresh');
+        $this->load->view('template/footer');      
     }
 
     public function edit_data($id_buku)
     {
+        $this->load->view('template/header');
         $this->load->model('buku_model');
         $siswa = $this->buku_model->GetWhere('tbl_buku', array('id_buku' => $id_buku));
         $data = array(
@@ -69,10 +76,13 @@ class Admin extends CI_Controller
             'penulis_buku' => $siswa[0]['penulis_buku'],
         );
         $this->load->view('editBuku_view', $data);
+        $this->load->view('template/footer');
+        
     }
 
     public function update_data()
     {
+        $this->load->view('template/header');
         $id_buku = $_POST['id_buku'];
         $nama_buku = $_POST['nama_buku'];
         $penulis_buku = $_POST['penulis_buku'];
@@ -105,5 +115,6 @@ class Admin extends CI_Controller
             );
             $this->load->view('editBuku_view', $data);
         }
+        $this->load->view('template/footer');     
     }
 }
