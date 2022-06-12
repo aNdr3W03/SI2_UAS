@@ -6,8 +6,10 @@
 </head>
 
 <body>
-    <h2>MENGUBAH IDENTITAS BUKU</h2>
-    <table>
+    <center>
+        <h2 style="margin-top: 120px;">EDIT BUKU</h2>   
+
+        <table class="table table-info table-striped table-hover" style="vertical-align: middle">
         <?php echo validation_errors(); ?>
         <?php echo form_open('admin/update_data'); ?>
         <form method="post" action="<?php echo base_url('admin/update_data'); ?>">
