@@ -12,11 +12,14 @@ class Regisadmin extends CI_Controller
 
     function index()
     {
+        $this->load->view('template/header');
         $this->load->view('regisAdmin_view');
+        $this->load->view('template/footer');
     }
 
     public function insert()
     {
+        $this->load->view('template/header');
         $this->load->model('regis_model');
         // Cek apakah Nama Admin kosong
         $this->form_validation->set_rules('username', 'Nama', 'required', array('required' => 'Nama Admin harus diisi'));
@@ -35,5 +38,6 @@ class Regisadmin extends CI_Controller
         } else {
             $this->load->view('regisAdmin_view');
         }
+        $this->load->view('template/footer');
     }
 }

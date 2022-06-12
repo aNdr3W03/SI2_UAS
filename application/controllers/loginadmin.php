@@ -19,6 +19,7 @@ class Loginadmin extends CI_Controller
 
     function login_action()
     {
+        $this->load->view('template/header');
         // Cek apakah Username kosong
         $this->form_validation->set_rules('username', 'Nama', 'required', array('required' => 'Silahkan mengisi Username'));
         // Cek apakah Password kosong
@@ -45,6 +46,7 @@ class Loginadmin extends CI_Controller
         } else {
             $this->load->view('loginAdmin_view');
         }
+        $this->load->view('template/footer');
     }
 
     function logout()
