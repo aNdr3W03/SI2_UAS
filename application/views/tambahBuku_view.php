@@ -7,15 +7,12 @@
 
 <body>
     <table>
+        <!-- menampilkan isi validasi -->
         <?php echo validation_errors(); ?>
+        <!-- menampilkan isi validasi -->
         <?php echo form_open('admin/insert'); ?>
         <form method="post" action="<?php echo base_url('admin/insert'); ?>">
             PENAMBAHAN BUKU
-            <tr>
-                <td>ID</td>
-                <td>:</td>
-                <td><input type="text" name="id_buku" placeholder="ID Buku"></td>
-            </tr>
             <tr>
                 <td>Nama</td>
                 <td>:</td>
