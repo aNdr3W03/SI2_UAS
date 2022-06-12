@@ -114,12 +114,6 @@
         </div>
     </div>
 
-    <table>
-        <th>
-            
-        </th>
-    </table>
-
     <div style="margin-bottom: 100px;" />
 
 </body>
