@@ -111,7 +111,7 @@
 
             <div class="form-options">
                 <p><a href="">Lupa password?</a></p>
-                <p>Belum punya akun? <a href="<?php echo base_url() ?>regisAdmin">Daftar Akun</a></p>
+                <p>Belum punya akun Admin? <a href="<?php echo base_url() ?>regisAdmin">Daftar Akun</a></p>
             </div>
         </div>        
     </form>
