@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-    <title>Buku Hehe - Login</title>
+    <title>Buku Hehe - Login Admin</title>
 
     <style> 
         .form-container 
