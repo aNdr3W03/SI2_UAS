@@ -12,7 +12,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <link rel="icon" href="assets/img/books.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url() ?>assets/img/books.png" type="image/x-icon">
 
     <!-- Link Font -->
     <!-- FONTS -->
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #6EDCFF">
+    <nav class="navbar fixed-top navbar-expand-xl" style="background-color: #6EDCFF">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?php echo base_url() ?>homepage" style="vertical-align: middle">
                 <img src="<?php echo base_url() ?>assets/img/books.png" alt="Book" width="40" height="40" class="d-inline-block align-text-middle">
@@ -54,6 +54,10 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url() ?>denah">Denah</a>
+                    </li>
+                    
+                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url() ?>about">Tentang Kami</a>
                     </li>
 
@@ -61,33 +65,20 @@
                         <a class="nav-link" href="<?php echo base_url() ?>contact">Kontak</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url() ?>denah">Denah</a>
-                    </li>
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?php echo base_url() ?>loginGuest">Guest</a></li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo base_url() ?>loginGuest">Guest</a>
+                            </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="<?php echo base_url() ?>loginAdmin">Admin</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Register
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?php echo base_url() ?>regisGuest">Guest</a></li>
                             <li>
-                                <hr class="dropdown-divider">
+                                <a class="dropdown-item" href="<?php echo base_url() ?>loginAdmin">Admin</a>
                             </li>
-                            <li><a class="dropdown-item" href="<?php echo base_url() ?>regisAdmin">Admin</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -8,18 +8,16 @@
 <body>
 
     <div>
-        <h2 style="margin-top:120px">
-            <center>
+        <h2 style="margin-top:120px; text-align: center;">
                 Kontak Kami <br>
-                Berani bertanya, mengenal jalan.
-            </center>
+                Berani bertanya, mengenal jalan.            
         </h2>
     </div>
     
     <div style="margin-top: 35px">
         <center>
             <h3> Daftar Kontak </h3>
-            <table style="border: 3px solid black;" width="70%">
+            <table style="border: 2px solid black;" width="70%">            
                 <tr>
                     <td> <img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-5.png" height=50 width=50 alt="assets\img\instagram.png"> </td>
                     <td> @bukuhehekekw </td>
