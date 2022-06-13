@@ -85,7 +85,7 @@
 
     <?php echo form_open('regisGuest/insert'); ?>
     
-    <form action="<?php echo base_url('loginGuest/login_action'); ?>" method="post">
+    <form action="<?php echo base_url('regisGuest/insert'); ?>" method="post">
         <div class="form-container" style="margin-top: 30px;">
             <div class="input-box">
                 <input style="border: none; width: 100%;" type="text" name="username" value="" <?php echo set_value('username'); ?> placeholder="Nama">
